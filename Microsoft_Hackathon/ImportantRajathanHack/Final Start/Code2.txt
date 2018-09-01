@@ -1,0 +1,23 @@
+import cv2
+def frame():
+  vidcap = cv2.VideoCapture('Cars.mp4')
+  success,image = vidcap.read()
+  count = 0
+  success = True
+  k=0
+  while True:
+    if k%5==0:
+      while success:
+        success,image = vidcap.read()
+        print('Read a new frame: ', success)
+        cv2.imwrite("frame%d.jpg" % count, image)     # save frame as JPEG file
+        count += 1
+        if count==20:
+          success=False
+          break
+    if k==100:
+      break
+    k+=1
+    return True
+
+

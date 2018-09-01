@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart Found:Admin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        function redirect()
+        {
+            window.location.assign("opencam.html");
+        }
+    </script>
+    <style>
+        body
+        {
+                padding: 0px;
+                margin: 0px;
+                font-family: "Quicksand", sans-serif;
+                font-weight: bolder;
+        }
+        .row.content {
+            height: 550px
+        }
+
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+          .in {
+                width: 250px;
+                height: 34px;
+                padding: 3px;
+                outline-offset: 0;
+                outline: 0;
+                font-family: "Quicksand", sans-serif;
+                font-weight: bolder;
+                font-size: 14px;
+                border: 2px solid #000;
+            }
+        
+            .io {
+                width: 250px;
+                height: 34px;
+                outline: 0;
+                font-family: "Quicksand", sans-serif;
+                font-weight: bolder;
+                font-size: 14px;
+                background: #66b30a;
+                border: 0px;
+            }
+        .io:hover{
+            color:white;
+        }
+        @media screen and (max-width: 767px) {
+            .row.content {
+                height: auto;
+            }
+
+        }
+         @media screen and (min-width: 767px) {
+         .in
+            {
+                width: auto;
+            }
+            .io
+            {
+                width: auto;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container">
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Bits Please</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar"  style="overflow: hidden;">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Dashboard</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">User List</a></li>
+                    <li><a href="#">Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav hidden-xs">
+                <h2>BITS PLEASE</h2>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#section1">Dashboard</a></li>
+                    <li><a href="#section2">Reports</a></li>
+                    <li><a href="#section3">User List</a></li>
+                    <li><a href="#section3">Map</a></li>
+                </ul><br>
+            </div>
+            <br>
+
+            <div class="col-sm-9">
+                <div class="well">
+                    <h4><b>Smart Tool Tax System</b></h4>
+                    <p>System is designed to find the lost or stolen cars from the cctv footage and will also try to find the culprit using face detection.</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="well">
+                            <h4>Enter Car Number</h4>
+                            <form method="post"><input type="text" placeholder="Enter Vehicle Number" class="in"></form><br>
+                            <button type="submit" class="io">Search</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" >
+                        <div class="well" style="padding-bottom:20px;">
+                            <h4>Live Camera Feed</h4><br>
+                            <p style="font-size: 16px;">Open Camera</p>
+                            <button onclick="redirect()" class="io">Open</
+                                button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="well" style="padding-bottom:45px;">
+                            <h4>Live Count</h4>
+                            <p>Car Counts</p>
+                            <p>Data Here</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="well" style="padding-bottom:20px;">
+                            <h4>Total Car Requests</h4><br>
+                            <p>Data Here</p>
+                            <button onclick="" class="io">Show Details</
+                                button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Toll Tax Details</p>
+                            <p>Jaipur Toll Tax</p>
+                            <p>Data 1</p>
+                            <p>Data 2</p>
+                            <p>Data 3</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Car Request 1</p>
+                            <p>Car Request 2</p>
+                            <p>Car Request 3</p>
+                            <p>Car Request 4</p>
+                            <p>Car Request 5</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Trace Recent Payments</p>
+                            <button onclick="" class="io">Trace Traffic</button><br><br>
+                            <button onclick="" class="io">Trace Payments</button>
+                            <br><p>Records</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

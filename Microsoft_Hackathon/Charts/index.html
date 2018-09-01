@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Analysis</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="card" style="width: 50%;height: 100%;" >
+  <!-- Custom information -->
+  <div class="about">
+    <h3 class="lead" >Traffic Analysis</h3>
+  </div>
+  
+  <!-- Canvas for Chart.js -->
+  <canvas id="canvas"  style="width: 100%; height: 100%;margin-left: 30px; margin-top: -150px;"></canvas>
+  
+  <!-- Custom Axis -->
+  <div class="axis">
+    <div class="tick"  style="width: 100%; height: 100%;">
+      <span class="day-number">8:00-8:02</span>
+      <span class="day-name">Slot 1</span>
+      <span class="value value--this" ><?php echo rand(25,28); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:02-8:04</span>
+      <span class="day-name">Slot 1</span>
+      <span class="value value--this"><?php echo rand(27,30); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:04-8:06</span>
+      <span class="day-name">Slot 2</span>
+      <span class="value value--this"><?php echo rand(31,33); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:06-8:08</span>
+      <span class="day-name">Slot 3</span>
+      <span class="value value--this"><?php echo rand(25,28); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:08-8:10</span>
+      <span class="day-name">Slot 4</span>
+      <span class="value value--this"><?php echo rand(22,25); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:10-8:12</span>
+      <span class="day-name">Slot 5</span>
+      <span class="value value--this"><?php echo rand(33,38); ?></span>
+    </div>
+    <div class="tick">
+      <span class="day-number">8:12-8:14</span>
+      <span class="day-name">Slot 6</span>
+      <span class="value value--this"><?php echo rand(34,36); ?></span>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

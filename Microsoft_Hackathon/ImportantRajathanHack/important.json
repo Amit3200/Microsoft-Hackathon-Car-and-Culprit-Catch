@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "brave-monitor-193321",
+  "private_key_id": "495b7ab6375b7da56372e11e747a2a55d66361a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCjSKaJ8hX6scr2\nyNAVTNcnbBrcr6C3psXrG7J7zrV4y44YVvSAY/0cvmwtjLb1bndrOvG1kyvnvBM6\npJkl8dLPXSWubBZIY4og2YVGjK22MbkYEodH8olV5+twJBp+PdeoBn/3zWBB5iv6\nAHlPmij315zB5d7GnAPIkgBxLj3HSJvNnvH/lANYoONSGPh/02vIokVU5wmT4csa\nSWIzHbBSx6aW7bqW9cPTwQVE5quJAMQMXv2DMnU8Git940UENpIFvjP18lUdoeGl\n9Yi9L842eyWo0HV2YjkM9iBo6a1mMCsJ5/PntfMH+WetARXxoBd4wAlXHxa2QQA4\nTiVStGTzAgMBAAECggEAJpRJSQmKWOe+IU30IDw+D6HyvNbAPfQpCjJKmwcNiINr\nyONutJErYim5zI9VQSr/CzZrmq+xrXiaAH6YcscuvHDxMMN4BlWCct2CKFefyY75\nAS+LiBvNiB8aWS4mllJNTHVwsd90EU3tcQ3Am+a8LEbk0klaOAnvuOmKMjOvRBDK\nD4+FU6Lq64Wcp+8eAJIoFxCtRtfodpBYltGznv/YzAlN8pN9ms+pCDNm3ANpVHfd\najysPfZOYfFK1NTw0MQW9rpa8+2mpU5UJyebx4ppd65VBeRo2lCsFzL6ZhZVRkUs\nFKShETpmRXY62BfL/65nWWFwdLi6/fe6QrKQq4CViQKBgQDkSQx+LJEe5SYCHmlw\nJ702BS8/SvUCgD3Iz5f1+pOA1WAbBoR+dFdadbHv+kHG64Yo4H6s3NpkXuHrIPTV\n5+uQUDGZupxJmg055m+XJ3RD8h8Z/8ojsH8EMvUu9Zwvayip+J+Esf1RqSQ/0UNz\nP+DkWWB5NCzXSZwFcMrDlcUBaQKBgQC3G2XwqwXkYs5odHCJM1+UTUT5dyYb1X1A\n/Tl2daMDPfvG/AXvzqUgXqe6bfH0UJ2Ih3Ub/bOoza81KPsz/H519iuNgVVsfK3A\npYeQooixmt65f1rwE+m66sRERQpdD/XmO+JXfOL4c0RZbRwxTBKXBlRuVTPWafZo\nTzl1S4iL+wKBgQCCgzDdQeWF4EQmmfR15oJKTBSC/vusflzUXbrnKmcCFPto+ATv\nttvqH7enF1BbxXNiE1bYxTsmfwhyQNk5IeqPCwoQdZu8iJJfM9tAc5II9nfJiW+r\nj9BOOkPqoQi2I3GQG1A3sPq+oRDUW3NQhIiyhFafdLDeNHs6sQ17XDjRYQKBgQCR\nsXkxP8NWb8/wiQWqBXh9leXV4Rovd3VMKrB4My3bvIwDTjCjGPeGhApNaoHkdeiC\n49UoynsTS2WnlM4cFUHCNnd9BnWj9qiB6rOtP8YoGyQw0MbY099b3MUB1TVjyvlL\nkkaMelBWg9DUnt6Z0v/Przeq+pxedL2dTbxYOhuR1QKBgQCaTRFjbWHpn6MR1wgJ\nDCwhUzqX6Vxh849aKue5dU5dNuMk5kAEvXQ/0TS/XE0Xh0Oi0juEd24n87/rChvy\n+x+qYrvjMrOLGMp9idMl7orj/sbk3jRhWqcwOBjjZYqvU1ODe1zgSptcY62XwOTZ\n7MqYwQmEhwGBBF0MWuPrHxe9Nw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "brave-monitor-193321@appspot.gserviceaccount.com",
+  "client_id": "114042403327394160010",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/brave-monitor-193321%40appspot.gserviceaccount.com"
+}
